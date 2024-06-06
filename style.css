@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  font-family: 'Netflix Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:white;
+  color: black;
+}
+
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+
+  font-size: 2rem;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  background-color: rgba(61, 194, 220, 0.891);
+    color:black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+  background-color: black;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120vh;
+  position: relative; 
+}
+
+.hero-content 
+  text-align: center;
+  margin-left: 2rem;
+  z-index: 1; 
+}
+
+.hero-image {
+  max-width: 125px;
+  height: auto;
+  cursor: pointer;
+}
+
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.movies {
+  padding: 2rem;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 2rem;
+}
+
+.movie-card {
+  background-color:white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(52, 162, 226, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-image {
+  width: 100%;
+  height: 400px;
+}
+
+.movie-info {
+  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.movie-info h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.movie-info p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.movie-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.watch-trailer,
+.watch-movie {
+    background-color: #36cce3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+  
+}
+.watch-trailer:hover{
+  background-color: blue;
+  color: white;
+}
+
+
+.watcher{
+    background-color: #35c5cd;
+    color: #fff;
+    border: none;
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.watcher:hover{
+  background-color: rgb(69, 243, 243);
+  color: black;
+}
+
+/* Footer Styles */
+footer {
+  background-color:black;
+  color: darkgray;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+
+.content {
+  position: absolute;
+  background: rgba(41, 43, 43, 0);
+  color: white;
+  width: 100%;
+  padding: 20px;
+  z-index: 1; 
+}
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 20;
+  min-width: 100vw;
+  min-height: 125vh;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+
+/* Footer Styles */
+
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-section {
+  flex-basis: 20%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: burlywood;
+}
+
+.footer-bottom {
+  background-color:black;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Font Awesome Icons */
+
+.fa {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.fa:hover {
+  color: #ccc;
+}
+
+.move{
+  justify-content: right;
+}

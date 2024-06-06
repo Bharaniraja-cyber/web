@@ -1,0 +1,128 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: #f8f3f3;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  nav a:hover{
+    color: red;
+  }
+  
+  /* Indian Movies Section Styles */
+  #indian-movies {
+    background-color:white;
+    padding: 40px 0;
+  }
+  
+  .indian-movies-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .indian-movies-content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .indian-movies-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .streaming-platforms {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .streaming-platforms h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .streaming-platforms a {
+    display: block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4bc9dd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease;
+  }
+  
+  .streaming-platforms a:hover {
+    transform: translateY(-5px);
+  }
+  
+  .latest-releases {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .latest-releases h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .latest-releases ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .latest-releases li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .latest-releases li img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 20px;
+    box-shadow: #4bc9dd;
+    border-width: 1pc;
+    border-radius: 15px;
+  }
+  
+  .latest-releases li h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .latest-releases li p {
+    font-size: 14px;
+    color: #666;
+  }
